@@ -14,7 +14,8 @@ class CreateEduBlackgroundTable extends Migration
     public function up()
     {
         Schema::create('edu_blackground', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->bigIncrements('edu_id');
+            $table->string('');
             $table->timestamps();
         });
     }
