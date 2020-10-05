@@ -13,10 +13,8 @@
   <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <svg class="bi" width="32" height="32" fill="currentColor">
-            <use xlink:href="bootstrap-icons.svg#shop"/>
-          </svg>
-        <a class="navbar-brand" href="#">Navbar</a>
+      <img src="imgs/svg/logorru.svg" alt="" width="32" height="32" title="Bootstrap">
+        <a class="navbar-brand" href="#">Saylab</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -33,12 +31,12 @@
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown link
+                หลักสูตร
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">ป.ตรี</a>
+                <a class="dropdown-item" href="#">ป.โท</a>
+                <a class="dropdown-item" href="#">ป.เอก</a>
               </div>
 
             </li>
