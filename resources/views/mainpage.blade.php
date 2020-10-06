@@ -14,7 +14,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <img src="imgs/svg/logorru.svg" alt="" width="32" height="32" title="Bootstrap">
-        <a class="navbar-brand" href="#">Saylab</a>
+        <a class="navbar-brand" href="#">SAYLABUS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
