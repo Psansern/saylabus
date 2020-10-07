@@ -19,5 +19,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('contact', 'ContactController@index')->name('contact');
-Route::get('faculty', 'FacultyController@index')->name('faculty');
+Route::get('/contact', 'ContactController@index')->name('contact');
+Route::get('/faculty', 'FacultyController@index')->name('faculty');
+Route::get('/course', 'CourseController@index')->name('course');
