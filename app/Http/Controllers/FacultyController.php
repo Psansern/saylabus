@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Faculty;
 
 use Illuminate\Http\Request;
 
@@ -12,8 +13,10 @@ class FacultyController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-        return view('faculty.index');
+        {
+            $faculty =Faculty::orderby ('faculty_id','asc')->get();
+            return  view('faculty.index',compact('faculty'));
+
     }
 
     /**
@@ -23,7 +26,7 @@ class FacultyController extends Controller
      */
     public function create()
     {
-        //
+        return view('faculty.create');
     }
 
     /**
@@ -43,9 +46,9 @@ class FacultyController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Faculty $faculty)
     {
-        //
+        return view('faculty.show',compact('faculty'));
     }
 
     /**
@@ -54,9 +57,9 @@ class FacultyController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Faculty $facultyd)
     {
-        //
+        return view('faculty.edit',compact('faculty'));
     }
 
     /**

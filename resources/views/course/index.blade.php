@@ -1,2 +1,2 @@
 @extends('main.layout')
-course
+
